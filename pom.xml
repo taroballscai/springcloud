@@ -21,6 +21,12 @@
         <module>copyeurekaclient</module>
         <module>github_configserver</module>
         <module>github_configclient</module>
+        <module>zipkin</module>
+        <module>zipkinclient</module>
+        <module>zipkinserver</module>
+        <module>zipkinclient</module>
+        <module>zipkinclient</module>
+        <module>zipkinserver</module>
     </modules>
 
     <parent>

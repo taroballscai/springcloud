@@ -1,0 +1,15 @@
+server:
+  port: 8242
+management:
+  metrics:
+    web:
+      server:
+        request:
+          autotime:
+            enabled: false
+        auto-time-requests: false
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: zipkinserver

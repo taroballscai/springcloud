@@ -1,0 +1,13 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: zipkinclient
+  sleuth:
+    web:
+      client:
+        enabled: true #开启请求追踪
+    sampler:
+      probability: 1.0 #设置采样比例
+  zipkin:
+    base-url: http://localhost:8242
