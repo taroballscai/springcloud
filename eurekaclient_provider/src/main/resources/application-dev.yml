@@ -1,0 +1,22 @@
+server:
+  port: 8011
+spring:
+  application:
+    name: provider
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://localhost:3306/springcloud
+    driver-class-name: com.mysql.cj.jdbc.Driver
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true #将当前的服务的IP注册到EurekaServer
+
+mybatis:
+  mapper-locations: classpath:mapper/StudentMapper.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

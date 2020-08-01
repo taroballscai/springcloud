@@ -1,0 +1,8 @@
+#给各大微服务提供的参数配置
+server:
+  port: 8070
+foo: foo version 1
+dog: hashqi
+
+
+

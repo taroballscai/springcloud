@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eurekaclientwithnativeconfig
+  profiles:
+    active: dev
+  #通过native_configclient拼接dev寻找shared文件夹下的native_configclient-dev.yml配置文件
+  cloud:
+    config:
+      uri: http://localhost:8762 #配置本地ConfigServer配置文件访问路径
+      fail-fast: true #设置客户端优先判断ConfigServer是否正常
