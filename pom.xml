@@ -19,6 +19,8 @@
         <module>native_configserver</module>
         <module>native_configclient</module>
         <module>copyeurekaclient</module>
+        <module>github_configserver</module>
+        <module>github_configclient</module>
     </modules>
 
     <parent>

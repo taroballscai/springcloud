@@ -10,7 +10,9 @@
         <module name="hystrix" />
         <module name="zuul" />
         <module name="eurekaclient_consumer" />
+        <module name="github_configclient" />
         <module name="feign" />
+        <module name="github_configserver" />
         <module name="ribbon" />
         <module name="native_configserver" />
         <module name="native_configclient" />
@@ -27,6 +29,8 @@
       <module name="eurekaclient_provider" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="feign" options="-parameters" />
+      <module name="github_configclient" options="-parameters" />
+      <module name="github_configserver" options="-parameters" />
       <module name="hystrix" options="-parameters" />
       <module name="native_configclient" options="-parameters" />
       <module name="native_configserver" options="-parameters" />
